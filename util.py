@@ -10,9 +10,9 @@ def load_manifest():
         # Set default value if data.json does not exist
         # CHANGE the data below accordingly
         manifest = {
-            "bot_token": "<telegram-bot-token:string>",
-            "bot_id": "<telegram-bot-id:string>",
-            "owner": <owner-id:int>,
+            "bot_token": "", #<telegram-bot-token:string>
+            "bot_id": "", #<telegram-bot-id:string>
+            "owner": 0 #<owner-id:int>
         }
         print("Creating manifest.json...")
         # Load data from manifest.json
